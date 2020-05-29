@@ -1,18 +1,22 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
 ---
+<!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
+<header class="header-home {% if site.animation %}animated{% endif %}">
+		<span class="link">
+			<img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+		</span>
+</header>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<p>Mobile developer working with native iOS development, with special interest in UI/UX. 
+Also interested in computer graphics and real-time rendering. 
+This site will be used to link personal projects and ocasional postings.</p>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<h2>Skills</h2>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<ul class="skill-list">
+	<li>iOS</li>
+	<li>Objective-C</li>
+	<li>Swift</li>
+</ul>
