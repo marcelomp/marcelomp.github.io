@@ -1,0 +1,75 @@
+baseURL = 'https://uifab.dev/'
+languageCode = 'en-us'
+title = 'uifab'
+theme = 'typo'
+
+# Google analytics code
+googleAnalytics = "G-GTX35VC8NB"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Personal web site"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hello!'
+homeIntroContent = """
+I am a Software Engineer!
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "instagram"
+url = "https://instagram.com/uifab"
+
+[[params.social]]
+name = "tiktok"
+url = "https://tiktok.com/@uifab"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/marcelomp"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/marcelo-pereira-3bba2270/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'

@@ -1,16 +1,29 @@
-## OS Files
-# macOS
+# Hugo-generated files
+/public/
+/resources/
+/assets/js/bundles/
+/hugo_stats.json
+
+# Local development files
+/.hugo_build.lock
 .DS_Store
-
-# Windows
 Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
 
-# Jekyll
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Node.js dependencies (if using npm/yarn for themes or tools)
+/node_modules/
+/package-lock.json
+/yarn.lock/
+
+# Temporary files
+*.log
+*.swp
+*.swo
+*.swn
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS system files
+._*
+.Spotlight-V100
+.Trashes
